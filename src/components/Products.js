@@ -47,7 +47,7 @@ const Products = () => {
     {
       id: 6,
       title: "MOXYZYME 625",
-      description: "Amoxicillin 500mg+potassium Clavulanate 125 mg.",
+      description: "Amoxycillin 500mg+potassium Clavulanate 125 mg.",
       image: image6,
     },
   ];
