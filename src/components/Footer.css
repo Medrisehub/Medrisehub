@@ -1,0 +1,13 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    justify-content: center;
+    align-items: last baseline;
+  }
+
+  .footer-bottom {
+    height: 50px;
+    border-top: 1px solid white;
+  }

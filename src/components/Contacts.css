@@ -1,0 +1,39 @@
+.contacts {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .completeContacts {
+    border-top: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .contact, .mail, .address {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .contact img, .mail img, .address img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 900px) {
+    .completeContacts {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .contact, .mail, .address {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+.distributors {
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.distributors h2 {
+  color: #240eb4;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.gridline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 20px;
+}
+
+.pdcontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  border-radius: 8px;
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.avatar img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.dtl {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .gridline {
+    justify-content: center;
+  }
+
+  .pdcontact {
+    flex: 2 1 30%;
+  }
+
+  .avatar img {
+    height: 25px;
+    width: 25px;
+  }
+}

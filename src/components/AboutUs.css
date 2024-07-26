@@ -1,0 +1,63 @@
+.company-dtls {
+  background-color: #cbcad4;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  color: #240eb4;
+}
+
+/* Objectives */
+
+.tags {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 1px;
+}
+
+.tag {
+  padding: 5px 10px;
+  margin: 0px 20px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, #999, #fff);
+  color: #240eb4;
+  border-radius: 8px;
+}
+.tag::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 6px;
+}
+
+.tag h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.tag p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .tags {
+    grid-template-columns: 1fr;
+  }
+  .tag {
+    height: auto;
+    margin: 10px;
+  }
+}
