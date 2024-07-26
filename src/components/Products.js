@@ -14,7 +14,7 @@ const Products = () => {
       id: 1,
       title: "CALCIVEX XT",
       description:
-        "Elemental calcium 500mg+L -methylfolate 1 mg+methylcobalamin 1500mcg+pyridoxal phosphate 20mg+vitamin D3 200 IU",
+        "Elemental calcium 500mg+L -methylfolate 1 mg+methylcobalamin 1500mcg+pyridoxal 5 phosphate 20mg+vitamin D3 200 IU",
       image: image1,
     },
     {
